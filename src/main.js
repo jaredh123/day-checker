@@ -14,6 +14,6 @@ $(document).ready(function() {
     let fullCount = dayChecker.fullCount(d, mCount, yrCount);
     let day = dayChecker.day(d, m, fullCount);
 
-    $("#result").text(`The above date is a ${day}.`);
+    $("#result").text(day);
   });
 });

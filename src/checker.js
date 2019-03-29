@@ -49,7 +49,7 @@ export default class DayChecker {
       return "That date doesn't exist!";
     }
     else {
-      return week[fullCount];
+      return `The above date is a ${week[fullCount]}.`;
     }
   }
 }
